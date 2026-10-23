@@ -1,0 +1,13 @@
+import java.time.LocalDateTime;
+
+public class Bicicleta extends Equipamento {
+    public Bicicleta(int codigo) { super(codigo, "Bicicleta"); }
+
+    @Override
+    public LocalDateTime calcularPrazoDevolucao(LocalDateTime retirada) {
+        return retirada.plusDays(7);
+    }
+
+    @Override
+    public boolean exigeVistoria() { return true; }
+}
