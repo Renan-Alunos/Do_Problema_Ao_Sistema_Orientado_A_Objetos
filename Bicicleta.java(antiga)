@@ -1,6 +1,5 @@
 import java.time.LocalDateTime;
 
-
 public class Bicicleta extends Equipamento {
     public Bicicleta(int codigo) { super(codigo, "Bicicleta"); }
 
