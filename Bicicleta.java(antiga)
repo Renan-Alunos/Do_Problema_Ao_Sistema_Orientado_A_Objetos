@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-// Subclasse de Equipamento: bicicleta tem prazo de sete dias e exige vistoria.
+
 public class Bicicleta extends Equipamento {
     public Bicicleta(int codigo) { super(codigo, "Bicicleta"); }
 
