@@ -1,6 +1,5 @@
 import java.time.LocalDateTime;
 
-// Subclasse de Equipamento: colete deve ser devolvido até o fim do mesmo dia.
 public class Colete extends Equipamento {
     public Colete(int codigo) { super(codigo, "Colete"); }
 
